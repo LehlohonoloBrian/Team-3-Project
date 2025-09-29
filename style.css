@@ -30,11 +30,11 @@ li a{
   padding: 60px 20px;
   text-align: center;
 }
-
 #services h2 {
   font-size: 2rem;
   margin-bottom: 40px;
-  color: #333;
+  color: #ffffff;
+  background-color: #2A7B9B;
 }
 
 .service-container {
@@ -61,11 +61,11 @@ li a{
 .service h3 {
   font-size: 1.25rem;
   margin-bottom: 15px;
-  color: #222;
+  color: #2A7B9B;
 }
 
 .service p {
   font-size: 0.95rem;
   color: #555;
-  line-height: 1.5;
+  line-height: 2.0;
 }
