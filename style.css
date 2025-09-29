@@ -69,3 +69,83 @@ li a{
   color: #555;
   line-height: 2.0;
 }
+
+
+/* Taffi's css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 60px 40px;
+}
+
+#profile {
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card {
+    flex: 1;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Team Member taffi  */
+.team-member {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.team-member img {
+    width: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.bio {
+    flex: 1;
+}
+
+/* Footer */
+footer {
+    background-color: #2A7B9B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
